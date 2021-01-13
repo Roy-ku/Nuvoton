@@ -1,0 +1,32 @@
+SET PATH=D:\Development\1.Development  Tool\Keil_5\ARM\ARMCC\Bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\dotnet\;C:\Users\User\AppData\Local\Microsoft\WindowsApps;C:\Users\User\.dotnet\tools;E:\Software\Development  Tool\Microsoft VS Code\bin
+SET CPU_TYPE=M058LDN
+SET CPU_VENDOR=Nuvoton
+SET UV2_TARGET=I2C_hardware_EEPROM
+SET CPU_CLOCK=0x00B71B00
+"D:\Development\1.Development  Tool\Keil_5\ARM\ARMCC\Bin\ArmCC" --Via "listings\main._ip"
+"D:\Development\1.Development  Tool\Keil_5\ARM\ARMCC\Bin\ArmCC" --Via ".\objects\main.__i"
+"D:\Development\1.Development  Tool\Keil_5\ARM\ARMCC\Bin\ArmCC" --Via "listings\adc._ip"
+"D:\Development\1.Development  Tool\Keil_5\ARM\ARMCC\Bin\ArmCC" --Via ".\objects\adc.__i"
+"D:\Development\1.Development  Tool\Keil_5\ARM\ARMCC\Bin\ArmCC" --Via "listings\clk._ip"
+"D:\Development\1.Development  Tool\Keil_5\ARM\ARMCC\Bin\ArmCC" --Via ".\objects\clk.__i"
+"D:\Development\1.Development  Tool\Keil_5\ARM\ARMCC\Bin\ArmCC" --Via "listings\gpio._ip"
+"D:\Development\1.Development  Tool\Keil_5\ARM\ARMCC\Bin\ArmCC" --Via ".\objects\gpio.__i"
+"D:\Development\1.Development  Tool\Keil_5\ARM\ARMCC\Bin\ArmCC" --Via "listings\pwm._ip"
+"D:\Development\1.Development  Tool\Keil_5\ARM\ARMCC\Bin\ArmCC" --Via ".\objects\pwm.__i"
+"D:\Development\1.Development  Tool\Keil_5\ARM\ARMCC\Bin\ArmCC" --Via "listings\timer._ip"
+"D:\Development\1.Development  Tool\Keil_5\ARM\ARMCC\Bin\ArmCC" --Via ".\objects\timer.__i"
+"D:\Development\1.Development  Tool\Keil_5\ARM\ARMCC\Bin\ArmCC" --Via "listings\uart._ip"
+"D:\Development\1.Development  Tool\Keil_5\ARM\ARMCC\Bin\ArmCC" --Via ".\objects\uart.__i"
+"D:\Development\1.Development  Tool\Keil_5\ARM\ARMCC\Bin\ArmCC" --Via "listings\i2c._ip"
+"D:\Development\1.Development  Tool\Keil_5\ARM\ARMCC\Bin\ArmCC" --Via ".\objects\i2c.__i"
+"D:\Development\1.Development  Tool\Keil_5\ARM\ARMCC\Bin\ArmCC" --Via "listings\user_delay._ip"
+"D:\Development\1.Development  Tool\Keil_5\ARM\ARMCC\Bin\ArmCC" --Via ".\objects\user_delay.__i"
+"D:\Development\1.Development  Tool\Keil_5\ARM\ARMCC\Bin\ArmCC" --Via "listings\eeprom_hardware_driver._ip"
+"D:\Development\1.Development  Tool\Keil_5\ARM\ARMCC\Bin\ArmCC" --Via ".\objects\eeprom_hardware_driver.__i"
+"D:\Development\1.Development  Tool\Keil_5\ARM\ARMCC\Bin\ArmCC" --Via "listings\retarget._ip"
+"D:\Development\1.Development  Tool\Keil_5\ARM\ARMCC\Bin\ArmCC" --Via ".\objects\retarget.__i"
+"D:\Development\1.Development  Tool\Keil_5\ARM\ARMCC\Bin\ArmAsm" --Via ".\objects\startup_m051series._ia"
+"D:\Development\1.Development  Tool\Keil_5\ARM\ARMCC\Bin\ArmCC" --Via "listings\system_m051series._ip"
+"D:\Development\1.Development  Tool\Keil_5\ARM\ARMCC\Bin\ArmCC" --Via ".\objects\system_m051series.__i"
+"D:\Development\1.Development  Tool\Keil_5\ARM\ARMCC\Bin\ArmLink" --Via ".\Objects\M051.lnp"
+"D:\Development\1.Development  Tool\Keil_5\ARM\ARMCC\Bin\fromelf.exe" ".\Objects\M051.axf" --i32combined --output ".\Objects\M051.hex"
